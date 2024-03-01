@@ -742,7 +742,7 @@ hr{
         justify-content: space-between;
         top: -1000%;
         background-color: var(--dblue);
-        width: 30%;
+        width: 100%;
         right: 0px;
         padding: 4rem;
         height: 100vh;
@@ -875,8 +875,8 @@ hr{
     .body-content .body-form-inline{
         display: none;
     }
-    header{
-        overflow: auto;
+    #offer{
+        margin-top: 2rem;
     }
 }
 
@@ -884,5 +884,14 @@ hr{
 @media (max-width: 440px){
     .ft-child{
         width: 100%;
+    }
+    .body-content h1{
+        font-size: 3rem;
+    }
+    .body-content p{
+        font-size: 1.8rem;
+    }
+    header{
+        height: 50vh;
     }
 }
